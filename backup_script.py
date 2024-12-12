@@ -10,7 +10,7 @@ import os
 
 # Cisco device information
 cisco_device = {
-    "host": " ", #Leave this blank cause Device IP/IPs will be in a .txt file
+    "host": " ", #Leave this blank because Cisco Device IP/IPs will be in hosts.txt file
     "port": 22,
     "username": "your_username", #@TODO Enter the hostname of the Cisco Device
     "password": "your_password", #@TODO Enter the password of the Cisco Device
