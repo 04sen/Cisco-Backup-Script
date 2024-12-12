@@ -68,7 +68,6 @@ cisco-backup-script/
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/cisco-backup-script.git
-   cd cisco-backup-script
    ```
 
 2. Install required dependencies:
