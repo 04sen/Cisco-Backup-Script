@@ -2,7 +2,30 @@
 
 ## Overview
 
-This Python script automates the backup of running configurations for Cisco network devices using SSH and TFTP. It provides scheduled configuration retrieval and old backup file management.
+This Python script automates the backup of running configurations for Cisco network devices using SSH and TFTP. It provides scheduled configuration retrieval and dynamically deletes old backup files. 
+
+## Table of Contents
+
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [TFTP Server Setup](#tftp-server-setup)
+  - [Option 1: TFTPD64 (Recommended for Windows)](#option-1-tftpd64-recommended-for-windows)
+  - [Option 2: Linux TFTP Server](#option-2-linux-tftp-server)
+- [Configuration](#configuration)
+  - [Device Credentials](#device-credentials)
+  - [Backup Location](#backup-location)
+  - [Hosts](#hosts)
+  - [TFTP Configuration](#tftp-configuration)
+  - [Backup Retention](#backup-retention)
+- [Usage](#usage)
+  - [Running the Script](#running-the-script)
+   - [Scheduling Options](#scheduling-options)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+
+- [License](#license)
+- [Contact](#contact)
 
 ## Features
 
@@ -113,13 +136,7 @@ sudo systemctl start tftpd-hpa
 python backup_script.py
 ```
 
-### Please Note: 
-
-The Idea is to have this script running indefinitely on a lightweight device and/or Server connected to the network.
-
-You will need to restart the Script if the device reboots. 
-
-## Scheduling Options
+### Scheduling Options
 The script supports multiple scheduling configurations:
 - Current default: Runs every 0.5 minutes
 - Commented examples include:
@@ -127,6 +144,11 @@ The script supports multiple scheduling configurations:
   - Customizable time-based schedules
 
 Please vist the [Scheduling Documentation](https://schedule.readthedocs.io/en/stable/) for more Infomation.
+
+### Please Note: 
+
+The Idea is to have this script running indefinitely on a lightweight device and/or Server connected to the network.
+You will need to restart the Script if the device reboots. 
 
 ## Troubleshooting
 
