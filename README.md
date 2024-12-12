@@ -21,6 +21,7 @@ This Python script automates the backup of running configurations for Cisco netw
 - [Usage](#usage)
   - [Running the Script](#running-the-script)
    - [Scheduling Options](#scheduling-options)
+   - [Testing the Script](#testing-the-script)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 
@@ -149,6 +150,12 @@ Please vist the [Scheduling Documentation](https://schedule.readthedocs.io/en/st
 
 The Idea is to have this script running indefinitely on a lightweight device and/or Server connected to the network.
 You will need to restart the Script if the device reboots. 
+
+## Testing The Script
+
+It is recommened to use a physical Cisco-ios device however you can also access the [Cisco Sandbox](https://developer.cisco.com/site/sandbox/) and use one of the Always-on devices to test the script. 
+
+I recommened using the **IOS XE on Cat8kv AlwaysOn** device as it has given me the most consistency. 
 
 ## Troubleshooting
 
