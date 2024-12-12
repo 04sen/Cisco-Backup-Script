@@ -119,6 +119,12 @@ sudo systemctl start tftpd-hpa
    }
    ```
 
+### Backup Location
+1. Modify the `folder` variable to the location / name of the folder where all the backups will be saved:
+   ```
+   folder = "backups"
+   ```
+
 ### Hosts
 1. Modify the `hosts.txt` file with one Cisco device IP per line:
    ```
