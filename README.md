@@ -158,7 +158,7 @@ It is recommened to use a physical Cisco-ios device however you can also access 
 I recommened using the **IOS XE on Cat8kv AlwaysOn** device as it has given me the most consistency. 
 
 ### Please Note:
-If using the Cisco Sandbox, the IP, username and password must reflect whats provided by Cisco. 
+If using the Cisco Sandbox, the IP, username and password must reflect those provided by Cisco. 
 
 ## Troubleshooting
 
