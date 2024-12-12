@@ -26,43 +26,6 @@ This Python script automates the backup of running configurations for Cisco netw
   - datetime
 
 
-
-## Project Structure
-
-```
-cisco-backup-script/
-│
-├── backups/                  # Directory for storing 
-│   └── (backup files will be stored here)
-│
-├── hosts.txt                 # List of Cisco device IP addresses
-│
-├── backup_script.py          # Main Python script for device backup
-│
-├── README.md                 # Project documentation
-|
-└── LICENSE                   # MIT License file
-```
-
-### Directory and File Descriptions
-
-- `backups/`: 
-  - Default directory for storing configuration backups
-  - Automatically created by the script
-  - Configuration files are saved here with timestamps
-
-- `hosts.txt`:
-  - Plain text file containing IP addresses of Cisco devices
-  - One IP address per line
-  - Used by the script to iterate through devices for backup
-
-- `backup_script.py`:
-  - Main Python script
-  - Handles SSH connections
-  - Manages backup process
-  - Implements scheduling and file cleanup
-
-
 ## Installation
 
 1. Clone the repository:
