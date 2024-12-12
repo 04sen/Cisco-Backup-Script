@@ -47,8 +47,6 @@ This Python script automates the backup of running configurations for Cisco netw
 
 ## TFTP Server Setup
 
-I used TFTP because it was very easy to start a Server on my Laptop using TFTPD64. I have added a setup guide for Windows and Linux below.
-
 ### Option 1: TFTPD64 (Recommended for Windows)
 1. Download TFTPD64 from the official website:
    [TFTPD64 Website.](https://pjo2.github.io/tftpd64/)
