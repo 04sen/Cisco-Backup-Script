@@ -146,10 +146,9 @@ The script supports multiple scheduling configurations:
 
 Please vist the [Scheduling Documentation](https://schedule.readthedocs.io/en/stable/) for more Infomation.
 
-### Please Note: 
-
-The Idea is to have this script running indefinitely on a lightweight device and/or Server connected to the network.
-You will need to restart the Script if the device reboots. 
+> [!NOTE]
+> The Idea is to have this script running indefinitely on a lightweight device and/or Server connected to the network.
+> You will need to restart the Script if the device reboots. 
 
 ## Testing The Script
 
@@ -157,8 +156,8 @@ It is recommened to use a physical Cisco-ios device however you can also access 
 
 I recommened using the **IOS XE on Cat8kv AlwaysOn** device as it has given me the most consistency. 
 
-### Please Note:
-If using the Cisco Sandbox, the IP, username and password must reflect those provided by Cisco. 
+> [!NOTE]
+> If using the Cisco Sandbox, the IP, username and password must reflect those provided by Cisco. 
 
 ## Troubleshooting
 
